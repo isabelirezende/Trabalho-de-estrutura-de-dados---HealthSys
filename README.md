@@ -56,16 +56,16 @@ healthsys.exe
 
 ## Decisões de Implementação
 
--Os dados dos pacientes são armazenados em um vetor fixo com limite para até 1000 pacientes, simplificando o gerenciamento de memória.
--Não há uso de alocação dinâmica para facilitar o controle do programa.
--A consulta por prefixo usa a função strncmp para comparar apenas os primeiros caracteres, tornando a busca mais flexível e rápida.
--O programa lê o arquivo CSV apenas uma vez na inicialização e não grava alterações de volta no arquivo.
+- Os dados dos pacientes são armazenados em um vetor fixo com limite para até 1000 pacientes, simplificando o gerenciamento de memória.
+- Não há uso de alocação dinâmica para facilitar o controle do programa.
+- A consulta por prefixo usa a função strncmp para comparar apenas os primeiros caracteres, tornando a busca mais flexível e rápida.
+- O programa lê o arquivo CSV apenas uma vez na inicialização e não grava alterações de volta no arquivo.
 
 ## Observações
 Neste trabalho, o sistema só lê os dados do arquivo CSV na inicialização e não salva alterações feitas durante a execução.
 
 Na próxima fase, o programa poderá permitir:
--Atualizar informações dos pacientes.
--Remover registros.
--Salvar essas mudanças no arquivo CSV, garantindo que os dados sejam mantidos entre execuções.
--Isso tornará o sistema mais completo para o gerenciamento real dos pacientes.
+- Atualizar informações dos pacientes.
+- Remover registros.
+- Salvar essas mudanças no arquivo CSV, garantindo que os dados sejam mantidos entre execuções.
+- Isso tornará o sistema mais completo para o gerenciamento real dos pacientes.
