@@ -4,9 +4,9 @@
 
 ## HealthSys - Sistema de Gerenciamento de Pacientes
 
-Este trabalho simula um banco de dados que armazena informações de pacientes, acessadas a partir de um arquivo CSV.
-
-Possui uma interface de terminal interativa que permite consultar ou listar dados dos pacientes, como: ID, nome, CPF, idade e data de cadastro. O usuário pode buscar pacientes digitando o nome ou CPF, ou ainda visualizar todos os pacientes cadastrados.
+Este trabalho cria um sistema programado em C para simular um banco de dados que armazena informações de pacientes, acessadas a partir de um arquivo CSV. 
+Atende ao usuário, com um interface simples, acessando um banco de dados, onde fica registrado as informações dos pacientes, como : ID, nome, CPF, idade e data de cadastro. 
+Com isso, o usuário pode acessar esses dados digitando o nome ou cpf de um paciente ou pode listar todos os pacientes cadastrados.
 
 ---
 
